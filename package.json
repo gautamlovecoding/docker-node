@@ -1,0 +1,27 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "description": "This is the docker projects for understanding full concept",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "mongoose",
+    "mongodb",
+    "redis"
+  ],
+  "author": "Gautam kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
