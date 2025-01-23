@@ -105,3 +105,11 @@ CMD ["npm", "start", "dev"]
 ### Use Multiple Compose Files
 - **docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d**  
   Use multiple compose files with file precedence for development purposes.
+
+### mongo database commagd
+- **mongosh -u "docker" -p "password" --authenticationDatabase "admin"** 
+- **docker exec -it docker-node-mongo-1 mongosh -u "docker" -p "password" --authenticationDatabase "admin"** 
+- **docker inspect <Container id or name>** 
+- ** docker logs docker-node-node-app-1 -f** -> explain -f 
+
+
