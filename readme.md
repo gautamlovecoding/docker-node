@@ -110,6 +110,7 @@ CMD ["npm", "start", "dev"]
 - **mongosh -u "docker" -p "password" --authenticationDatabase "admin"** 
 - **docker exec -it docker-node-mongo-1 mongosh -u "docker" -p "password" --authenticationDatabase "admin"** 
 - **docker inspect <Container id or name>** 
-- ** docker logs docker-node-node-app-1 -f** -> explain -f 
+- **docker logs docker-node-node-app-1 -f** -> explain -f 
+- **docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d --no-deps node-app** -> --nodeps explain 
 
 
